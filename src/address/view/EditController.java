@@ -54,7 +54,7 @@ public class EditController {
      */
     public void setPerson(Person p) {
         this.person = p;
-        System.out.println(person.getFirstName());
+
         firstNameField.setText(person.getFirstName());
         lastNameField.setText(person.getLastName());
         streetField.setText(person.getStreet());

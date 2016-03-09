@@ -119,7 +119,6 @@ public class MainApp extends Application {
             // Set the person into the controller.
             EditController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            System.out.println(person);
             controller.setPerson(person);
 
             // Show the dialog and wait until the user closes it
